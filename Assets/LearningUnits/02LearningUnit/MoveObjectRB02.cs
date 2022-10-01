@@ -11,6 +11,8 @@ public class MoveObjectRB02 : MonoBehaviour
     {
         // Where does one find a rigidbody these days anyway?
 
+        rigidbody = GetComponent<Rigidbody>();
+
 	    //rigidbody = rigidbody;
     }
 
@@ -20,3 +22,4 @@ public class MoveObjectRB02 : MonoBehaviour
         rigidbody.AddForce(moveDirection, ForceMode.Force);
     }
 }
+//Added rigidbody = GetComponent<Rigidbody>();

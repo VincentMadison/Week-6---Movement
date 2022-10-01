@@ -19,3 +19,4 @@ public class MoveObjectRB05 : MonoBehaviour
         rigidbody.AddForce(moveDirection, ForceMode.Force); // Don't change this!
     }
 }
+// Unchecked Is Kinematic

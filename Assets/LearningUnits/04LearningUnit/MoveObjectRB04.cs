@@ -25,3 +25,4 @@ public class MoveObjectRB04 : MonoBehaviour
     {
     }
 }
+// Reduced mass of red cube

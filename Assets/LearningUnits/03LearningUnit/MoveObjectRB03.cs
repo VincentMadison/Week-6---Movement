@@ -19,3 +19,4 @@ public class MoveObjectRB03 : MonoBehaviour
         rigidbody.AddForce(moveDirection, ForceMode.Force); // Don't change this!
     }
 }
+// Reduced mass of blue cube
